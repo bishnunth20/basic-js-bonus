@@ -6,7 +6,7 @@
 
 // let sum = 0;
 // for (let i = 6; i >= 1; i--) {
-//   sum = sum + i;
+//   sum = sum + i; // 6+5+4+3+2+1
 // }
 // console.log(sum);
 
@@ -16,4 +16,6 @@ function sum(i) {
   }
   return sum(i-1) + i;
 }
+// i + sum(i - 1);
+// 6 + 5 + 4 + 3 + 2 + 1
 console.log(sum(6));
